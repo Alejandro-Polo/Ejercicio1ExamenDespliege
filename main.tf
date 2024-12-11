@@ -7,7 +7,7 @@ terraform {
   }
   required_version = ">= 1.9.0"
   backend "s3" {
-    bucket = "my-bucket" 
+    bucket = "Ejercicio1" 
     key    = "web"                 
     region = "us-east-1"                          
   }
@@ -17,8 +17,8 @@ terraform {
 
 resource "aws_s3_bucket" "Ejercicio1" {
   bucket = "AlejandroPoloBarrancoDAW"
-
+  region = "us-east-1"  
   tags = {
-    Name        ="AlejandroPoloBarrancoDAW"
+    Name  ="AlejandroPoloBarrancoDAW"
   }
 }
