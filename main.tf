@@ -1,10 +1,3 @@
-resource "aws_s3_bucket" "Ejercicio1" {
-  bucket = "Bucket-AlejandroPoloBarrancoDAW"
-  region = "us-east-1"  
-  tags = {
-    Name  ="AlejandroPoloBarrancoDAW"
-  }
-}
 terraform {
   required_providers {
     aws = {
@@ -20,3 +13,10 @@ terraform {
   }
 }
 
+resource "aws_s3_bucket" "Ejercicio1" {
+  bucket = "Bucket-AlejandroPoloBarrancoDAW"
+  region = "us-east-1"  
+  tags = {
+    Name  ="alejandropolobarrancodaw"
+  }
+}
