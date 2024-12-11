@@ -16,10 +16,9 @@ terraform {
 
 
 resource "aws_s3_bucket" "Ejercicio1" {
-  bucket = "my-bucket"
+  bucket = "AlejandroPoloBarrancoDAW"
 
   tags = {
-    Name        =""
-    Environment = "Dev"
+    Name        ="AlejandroPoloBarrancoDAW"
   }
 }
