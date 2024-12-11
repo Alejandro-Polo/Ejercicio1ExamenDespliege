@@ -7,7 +7,7 @@ terraform {
   }
   required_version = ">= 1.9.0"
   backend "s3" {
-    bucket = "AlejandroPoloBarrancoDAW" 
+    bucket = "Bucket-AlejandroPoloBarrancoDAW" 
     key    = "web"                 
     region = "us-east-1"                          
   }
