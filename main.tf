@@ -19,7 +19,7 @@ resource "aws_s3_bucket" "Ejercicio1" {
   bucket = "my-bucket"
 
   tags = {
-    Name        ="AlejandroPoloBarrancoDAW"
+    Name        =""
     Environment = "Dev"
   }
 }
