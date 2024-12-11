@@ -16,7 +16,7 @@ terraform {
 
 
 resource "aws_s3_bucket" "Ejercicio1" {
-  bucket = "AlejandroPoloBarrancoDAW"
+  bucket = "Bucket-AlejandroPoloBarrancoDAW"
   region = "us-east-1"  
   tags = {
     Name  ="AlejandroPoloBarrancoDAW"
